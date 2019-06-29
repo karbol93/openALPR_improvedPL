@@ -91,10 +91,10 @@ namespace alpr
       insertLetter(SKIP_CHAR, line_index, charposition, adjustedScore );
     }
 
-    //if (letter == '0')
-    //{
-    //  insertLetter('O', charposition, score - 0.5);
-    //}
+    if (letter == "0")
+    {
+      insertLetter("O", line_index,charposition, score - 0.5);
+    }
   }
 
   void PostProcess::insertLetter(string letter, int line_index, int charposition, float score)

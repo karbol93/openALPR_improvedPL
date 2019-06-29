@@ -29,7 +29,7 @@
 
 #define NO_LINE -1
 
-#define SCORING_MISSING_SEGMENT_PENALTY_VERTICAL        10
+#define SCORING_MISSING_SEGMENT_PENALTY_VERTICAL        15
 #define SCORING_MISSING_SEGMENT_PENALTY_HORIZONTAL      1
 
 #define SCORING_PLATEHEIGHT_WEIGHT                      2.2
@@ -38,7 +38,7 @@
 
 #define SCORING_DISTANCE_WEIGHT_VERTICAL                4.0
 
-#define SCORING_LINE_CONFIDENCE_WEIGHT                  18.0
+#define SCORING_LINE_CONFIDENCE_WEIGHT                  8.0
 
 namespace alpr
 {

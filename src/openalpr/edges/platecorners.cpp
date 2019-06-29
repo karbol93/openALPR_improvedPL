@@ -205,7 +205,7 @@ namespace alpr
     float actual_width = distanceBetweenPoints(leftMidLinePoint, rightMidLinePoint);
     
     // Disqualify the pairing if it's less than one quarter of the ideal width
-    if (actual_width < (idealPixelWidth / 4))
+    if (actual_width < (idealPixelWidth / 2))
       return;
       
     float plateDistance = abs(idealPixelWidth - actual_width);
